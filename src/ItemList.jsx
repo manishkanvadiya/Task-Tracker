@@ -11,7 +11,7 @@ const ItemList = ({ item, headleCheck, handleDelete }) => {
           onChange={() => headleCheck(item.id)}
           type="checkbox"
           checked={item.checked}
-          className="bg-themeGreen p-7 w-[25px] h-[20px] border-none outline-none bg-none rounded-none"
+          className="bg-themeGreen p-7 w-[20px] h-[15px] border-none outline-none bg-none rounded-none"
         />
         <label
          className="pl-2"
