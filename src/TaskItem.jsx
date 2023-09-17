@@ -3,7 +3,7 @@ import ItemList from "./ItemList";
 
 const TaskItem = ({ items, headleCheck, handleDelete }) => {
   return (
-    <div>
+    <>
       <ul>
         {items.map((item) => (
           <ItemList
@@ -14,7 +14,7 @@ const TaskItem = ({ items, headleCheck, handleDelete }) => {
           />
         ))}
       </ul>
-    </div>
+    </>
   );
 };
 

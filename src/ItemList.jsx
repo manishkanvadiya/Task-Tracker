@@ -14,7 +14,7 @@ const ItemList = ({ item, headleCheck, handleDelete }) => {
           className="bg-themeGreen p-7 w-[20px] h-[15px] border-none outline-none bg-none rounded-none"
         />
         <label
-         className="pl-2"
+         className="pl-2 capitalize"
           style={item.checked ? { textDecoration: "line-through" } : null}
           onDoubleClick={() => headleCheck(item.id)}
         >
