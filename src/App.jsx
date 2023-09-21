@@ -6,8 +6,9 @@ import Footer from "./Footer";
 import AddTask from "./AddTask";
 import SearchItem from "./SearchItem";
 import apiReq from "./apiReq";
+// const { API_URLS } = import.meta.env;
 const App = () => {
-  const APP_URL = "http://localhost:3100/items";
+  const APP_URL = "https://task-tracker-server-a9wo.onrender.com/items";
   const [items, setItems] = useState([]);
 
   const [completedTasks, setCompletedTasks] = useState(0);

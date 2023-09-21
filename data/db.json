@@ -1,7 +1,22 @@
 {
   "items": [
     {
+      "id": 1,
+      "checked": true,
+      "item": "asd"
+    },
+    {
       "id": 2,
+      "checked": true,
+      "item": "asd"
+    },
+    {
+      "id": 3,
+      "checked": true,
+      "item": "asd"
+    },
+    {
+      "id": 4,
       "checked": true,
       "item": "asd"
     }
